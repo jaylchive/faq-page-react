@@ -1,0 +1,18 @@
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  border-radius: 1000px;
+}
+
+.btn:global(.active) {
+  background-color: rgba(242, 245, 249, 0.2);
+}
